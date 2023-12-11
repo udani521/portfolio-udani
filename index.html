@@ -5,34 +5,78 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>personal portfolio</title>
     <link rel="stylesheet" href="style.css">
+ 
 </head>
 <body>
     
     <div id="header"> 
         <div class="container">
-            
-                <nav>
             <nav>
-                <img src="images/profilepic.jpg" class="profilepic"></nav> 
-                <div class="header-text">
-                <h1>Udani Karunaratne</h1>
-                <br>
-                <p>Front-end Web Developer</p>
-                
-                </div>
-                <nav>
-                    <ul>
-                        <li><a href="#">Home</a></li> 
-                        <li><a href="#">About me</a></li> 
-                        <li><a href="#">Work</a></li> 
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </nav> 
-            
-            </div>          
+                 <ul>
+                     <li><a href="#">Home</a></li> 
+                     <li><a href="#">About me</a></li> 
+                     <li><a href="#">Work</a></li> 
+                     <li><a href="#">Contact</a></li>
+                 </ul>
             </nav>
+
+                    <div class="header-text">
+                        <div class="container">
+                    <h1>Udani Karunaratne</h1>  
+                    <P>Front End Web Developer</P> 
+                    <br>
+                    
+                    </div>
+            
+        </div>                        
+            </nav>
+    </div>
+   <!-- about -->
+
+    <div id="About">
+        <div class="container">
+            <div class="row">
+                <div class="About-col-1">
+                    <img src="images/profilepic.jpg">
+                </div>
+                <div class="About-col-2">
+                    <h1 class="sub-title">About Me</h1><br>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non quae inventore ex! Magnam atque voluptatum quos corporis itaque quidem assumenda inventore error officiis, odit sunt deserunt repudiandae possimus sed! Ipsam!</p>
+                    <div class="tab-titles">
+                        <P class="tab-links active-link" onclick="opentab('Skills')">Skills</P>
+                        <P class="tab-links"onclick="opentab('Experience')">Experience</P>
+                        <P class="tab-links"onclick="opentab('Education')">Education</P>
+                    </div>
+                    <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Web app Development</li>
+                            <li><span>Adobe Illustrator</span><br>Designing</li>
+                            <li><span></span><br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents"id="Experience">
+                        <ul>
+                            <li><span>2023-current</span><br>Web Developing tools training-Front End Web Developing Bootcamp EDx</li>
+                            <li><span>Adobe Illustrator</span><br>Designed a thesis cover and inside diagrams</li>
+                            <img src="">
+                            <li><span></span><br></li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents"id="Education">
+                        <ul>
+                            <li><span>2023-current</span><br>Front End Web Developing Bootcamp EDx</li>
+                            <li><span>Adobe Illustrator</span><br>self taught</li>
+                            <li><span></span><br></li>
+                        </ul>
+                    </div>
+                        
+            </div>
+                </div>
+            </div>
         </div>
     </div>
-    
+    <script>
+
+    </script>
 </body>
 </html>
