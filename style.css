@@ -2,8 +2,11 @@
     margin: 0;
     padding: 0;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    box-sizing: border-box;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 body{
     background: rgb(117, 66, 105);
     color: lightcyan ;
@@ -76,7 +79,7 @@ nav ul li a:hover::after{
     flex-basis: 35%;
 }
 .About-col-1 img{
-    width:100%;
+    width:60%;
     border-radius: 15px;
 }
 .About-col-2{
@@ -119,15 +122,65 @@ flex-basis: 60%;
     margin: 10px 0;
 
 }
-.tab-contents ul li span{
-    color:antiquewhite;
-    font-size: 14px;
-
+.tab-contents.Experience{
+image-resolution: 20px 20px;
 }
+
+.tab-contents ul li span{
+    color:antiquewhite
+    font-size 14px; 
+}
+
 .tab-contents{
     display: none;
 
 }
 .tab-contents.active-tab{
     display: block;
+}
+.sub-title Work{
+    font-size: 40px;
+    font-weight: 600;
+    color: antiquewhite;
+    
+
+    }
+.sub-title ul li{
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+ 
+}
+/* ------contact------ */
+.contact-left p i{
+    color:antiquewhite;
+    margin-right: 15px;
+    font-size: 25px;
+}
+.social-icons{
+    margin-top:30px;
+}
+.social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: antiquewhite;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+.social-icons a:hover{
+    color:wheat;
+    transform:translateY(-5px);
+    
+}
+.btn.btn2{
+    display:inline-block;
+    background: #2e0134;
+    text-decoration: none;
+    text-decoration-color:wheat;
+
+}
+/* ------css for small screen------ */
+@media only screen and (max-width:600px){
+
 }
