@@ -5,9 +5,6 @@ Creating a Portfolio for carrier support
  
   
 
-## deploy site
-https://udani521.github.io/improving-accessibility/
-
 ## Credits
 https://www.w3schools.com/html/default.asp
 https://www.w3schools.com/css/default.asp
